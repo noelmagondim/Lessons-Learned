@@ -6,3 +6,7 @@ body {
   position: fixed;
   top: 0;
 }
+
+.images-links {
+  width: 40px;
+}
