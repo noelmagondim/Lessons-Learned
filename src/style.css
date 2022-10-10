@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  padding: 2%;
 }
 
 #cabecalho {
@@ -11,14 +12,22 @@ body {
   width: 40px;
 }
 
-.table{
+.table {
   border: 2px solid grey;
   text-align: center;
 }
-#caption{
+
+#caption {
   margin-block-end: 10px;
 }
 
-tr:nth-child(odd){
+tr:nth-child(odd) {
   background-color: gray;
+}
+
+#minha_foto {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 210px;
 }
