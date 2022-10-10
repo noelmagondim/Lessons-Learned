@@ -10,3 +10,15 @@ body {
 .images-links {
   width: 40px;
 }
+
+.table{
+  border: 2px solid grey;
+  text-align: center;
+}
+#caption{
+  margin-block-end: 10px;
+}
+
+tr:nth-child(odd){
+  background-color: gray;
+}
