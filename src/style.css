@@ -1,6 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
   padding: 2%;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.733);
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -26,8 +30,13 @@ tr:nth-child(odd) {
 }
 
 #minha_foto {
-  margin-top: 30px;
+  margin-top: 50px;
   padding: 10px;
   border-radius: 20px;
   width: 210px;
+}
+
+#rodape {
+  margin-top: 15px;
+  text-align: center;
 }
