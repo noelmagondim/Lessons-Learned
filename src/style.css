@@ -1,42 +1,169 @@
 body {
   background-color: rgb(253, 251, 251);
-  padding: 2%;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.733);
   line-height: 25px;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/download.jpeg);
 }
 
 #cabecalho {
-  position: fixed;
+  position: absolute;
   top: 0;
-}
-
-.images-links {
-  width: 40px;
-}
-
-.table {
-  border: 2px solid grey;
+  background-color: #15691F;
+  width: 100%;
   text-align: center;
+  left: 0;
+  color: #76EC84;
+}
+
+#image-linkedin {
+  width: 50px;
+  margin-left: 45%;
+}
+#image-github {
+  width: 50px;
+  margin-left: 10px;
 }
 
 #caption {
   margin-block-end: 10px;
+  background-color: #25B835;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.table {
+  border: 2px solid white;
+  text-align: center;
+  margin-top: 400px;
+  margin-left: 150px;
+  color: #15691F;
+  font-weight: bolder;
+  background-color: white;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 1000px;
 }
 
 tr:nth-child(odd) {
-  background-color: gray;
+  background-color: #2EE844;
 }
 
 #minha_foto {
-  margin-top: 50px;
+  margin-top: 110px;
+  margin-bottom: 40px;
   padding: 10px;
   border-radius: 20px;
   width: 210px;
+  margin-left: 40%;
+  background-color: white;
 }
 
 #rodape {
   margin-top: 15px;
   text-align: center;
+  position: absolute;
+  background-color: #15691F;
+  width: 100%;
+  left: 0;
+  color: #76EC84;
+}
+
+#licoes_aprendidas {
+ margin-left: 40px;
+ color: #15691F;
+}
+
+#licoes_a_aprender {
+  margin-left: 130px;
+  color: #15691F;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  width: 37%;
+  background-color: #76EC84;
+  margin-left: 150px;
+  border-radius: 20px;
+  color: #15691F;
+}
+
+.lado-direito {
+  position: relative;
+  float: right;
+  width: 37%;
+  background-color: #76EC84;
+  border-radius: 20px;
+  margin-right: 110px;
+  color: #15691F;
+}
+
+article section h3 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #25B835;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 12%;
+  margin-right: 9%;
+}
+
+article section p {
+  text-align: justify;
+  margin-left: 12%;
+  margin-right: 9%;
+  color: #15691F;
+  font-weight: bolder;
+  background-color: #76EC84;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+aside p {
+  text-align: justify;
+  margin-left: 12%;
+  margin-right: 9%;
+  color: #15691F;
+  font-weight: bolder;
+  background-color: #76EC84;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section ol li {
+  margin-left: 30%;
+}
+
+#licoes {
+  background-color: #25B835;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  border-radius: 20px;
+  margin-left: 12%;
+  margin-right: 9%;
+  margin-bottom: 40px;
+}
+
+nav p {
+  background-color: #25B835;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 12%;
+  margin-right: 9%;
+  font-weight: bolder;
 }
